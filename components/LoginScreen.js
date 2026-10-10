@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Globe, Lock, Zap } from "lucide-react";
+import { Globe, Lock } from "lucide-react";
 import GoogleButton from "./GoogleButton";
 import EmailOtp from "./EmailOtp";
 import ClerkLogin from "./ClerkLogin";
@@ -11,6 +11,7 @@ import { CLERK_KEY } from "./ClerkShell";
 import { useApp } from "./AppProvider";
 import { LANGS } from "@/lib/i18n";
 import Icon from "./Icon";
+import RunnerLogo from "./RunnerLogo";
 
 const ERRORS = ["google_invalid", "not_configured"];
 
@@ -29,9 +30,7 @@ export default function LoginScreen() {
         <div className="absolute inset-0 bg-accent/10 mix-blend-color" />
         <div className="relative flex h-full flex-col justify-between p-12">
           <div className="flex items-center gap-2.5">
-            <span className="grid h-11 w-11 place-items-center rounded-xl bg-gradient-to-br from-accent-3 to-accent-2 text-void shadow-glow">
-              <Zap size={22} fill="currentColor" />
-            </span>
+            <RunnerLogo size={54} />
             <span className="font-display text-2xl font-bold uppercase text-ink">
               Sport<span className="neon">Quest</span>
             </span>
@@ -87,9 +86,7 @@ export default function LoginScreen() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="glass relative w-full max-w-md rounded-[2rem] p-7 shadow-2xl sm:p-9"
         >
-          <span className="grid h-14 w-14 place-items-center rounded-2xl bg-gradient-to-br from-accent-3 to-accent-2 text-void shadow-glow lg:hidden">
-            <Zap size={26} fill="currentColor" />
-          </span>
+          <span className="block lg:hidden"><RunnerLogo size={60} /></span>
           <p className="mt-5 text-xs font-bold uppercase tracking-[0.25em] text-accent lg:mt-0">{t("login.kicker")}</p>
           <h2 className="mt-2 font-display text-4xl font-bold uppercase leading-none text-ink">{t("login.title")}</h2>
           <p className="mt-3 text-sm leading-relaxed text-mute">{t("login.text")}</p>

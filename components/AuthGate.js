@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, UserRound, Zap } from "lucide-react";
+import { ArrowRight, UserRound } from "lucide-react";
 import LoginScreen from "./LoginScreen";
 import Button from "./Button";
 import { useApp } from "./AppProvider";
+import RunnerLogo from "./RunnerLogo";
 
 // Новый пользователь подтвердил почту: просим имя для профиля
 function NameStep() {
@@ -54,13 +55,7 @@ export default function AuthGate({ children }) {
   if (!ready) {
     return (
       <div className="grid min-h-dvh place-items-center">
-        <motion.span
-          animate={{ scale: [1, 1.12, 1], opacity: [0.7, 1, 0.7] }}
-          transition={{ duration: 1.2, repeat: Infinity }}
-          className="grid h-16 w-16 place-items-center rounded-2xl bg-gradient-to-br from-accent-3 to-accent-2 text-void shadow-glow"
-        >
-          <Zap size={30} fill="currentColor" />
-        </motion.span>
+        <RunnerLogo size={84} always />
       </div>
     );
   }

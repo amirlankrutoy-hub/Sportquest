@@ -4,9 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { Bell, Globe, LogOut, Menu, UserRound, X, Zap } from "lucide-react";
+import { Bell, Globe, LogOut, Menu, UserRound, X } from "lucide-react";
 import { useApp } from "./AppProvider";
 import Avatar from "./Avatar";
+import RunnerLogo from "./RunnerLogo";
 import Icon from "./Icon";
 import { GoogleLogo } from "./GoogleButton";
 import { getSport } from "@/data/sports";
@@ -25,9 +26,7 @@ const LINKS = [
 export function Logo() {
   return (
     <Link href="/" className="group flex shrink-0 items-center gap-2.5">
-      <span className="relative grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-accent-3 to-accent-2 text-void shadow-glow transition-transform duration-300 group-hover:rotate-[-8deg] group-hover:scale-105">
-        <Zap size={20} fill="currentColor" strokeWidth={1.5} />
-      </span>
+      <RunnerLogo size={46} />
       <span className="font-display text-xl font-bold uppercase leading-none tracking-wide text-ink">
         Sport<span className="neon">Quest</span>
       </span>
