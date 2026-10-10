@@ -1,0 +1,1065 @@
+{
+  "_comment": "Проверенные залы и площадки Ташкента (список от команды). Координаты добавляет скрипт геокодирования (поле geo).",
+  "venues": {
+    "ufc_gym": {
+      "name": "UFC GYM Uzbekistan",
+      "address": "ул. Укчи, 3 (Tashkent City)",
+      "q": [
+        "UFC GYM Tashkent",
+        "Tashkent City Park",
+        "Ukchi 3, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.31455,
+        "lng": 69.24443,
+        "precision": "exact",
+        "matched": "UFC gym Uzbekistan, Укчи улица, Ташкент-Сити",
+        "query": "UFC GYM Tashkent"
+      }
+    },
+    "bukagym": {
+      "name": "BUKAGYM Training Center",
+      "address": "9-й проезд Абдуллы Каххара, 1а (ориентир: Korzinka у аэропорта)",
+      "q": [
+        "BUKAGYM",
+        "Abdulla Qahhor 9-tor ko'chasi, Tashkent",
+        "Abdulla Qahhor ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28359,
+        "lng": 69.25899,
+        "precision": "street",
+        "matched": "Абдуллы Каххара улица, Абдулла Каххар махалля, Яккасарайский район",
+        "query": "Abdulla Qahhor ko'chasi, Tashkent"
+      }
+    },
+    "fight_baza_alimjan": {
+      "name": "Fight Baza",
+      "address": "площадь Хамида Алимджана, 13а",
+      "q": [
+        "Fight Baza Tashkent",
+        "Hamid Olimjon maydoni, Tashkent",
+        "Хамида Алимджана, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.31818,
+        "lng": 69.29428,
+        "precision": "area",
+        "matched": "площадь Хамида Алимджана, Лашкаберги махалля, Мирзо-Улугбекский район",
+        "query": "Hamid Olimjon maydoni, Tashkent"
+      }
+    },
+    "fight_baza_niyazov": {
+      "name": "Fight Baza",
+      "address": "ул. Кари Ниязова, 10",
+      "q": [
+        "Qori Niyoziy ko'chasi 10, Tashkent",
+        "Qori Niyoziy ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32143,
+        "lng": 69.29851,
+        "precision": "house",
+        "matched": "10/1, Кары Ниязова улица, Хамид Алимджан махалля",
+        "query": "Qori Niyoziy ko'chasi 10, Tashkent"
+      }
+    },
+    "fight_baza_karasu": {
+      "name": "Fight Baza",
+      "address": "массив Карасу-1, 25/3",
+      "q": [
+        "Qorasuv-1, Tashkent",
+        "Карасу-1, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.33717,
+        "lng": 69.37403,
+        "precision": "area",
+        "matched": "Карасу-1, Карасу, Мирзо-Улугбекский район",
+        "query": "Qorasuv-1, Tashkent"
+      }
+    },
+    "mma_uzbekistan": {
+      "name": "MMA Uzbekistan",
+      "address": "ул. Чиланзор, 1а",
+      "q": [
+        "Chilonzor ko'chasi 1, Tashkent",
+        "Chilonzor ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28308,
+        "lng": 69.22387,
+        "precision": "house",
+        "matched": "Домашняя выпечка, 1, Чиланзарская улица",
+        "query": "Chilonzor ko'chasi 1, Tashkent"
+      }
+    },
+    "old_school_mma": {
+      "name": "Old School Uzbek MMA",
+      "address": "массив Чиланзар, 12-й квартал, 9/1",
+      "q": [
+        "Чиланзар-12, Ташкент",
+        "Chilonzor-12, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28211,
+        "lng": 69.18678,
+        "precision": "area",
+        "matched": "Чиланзар-12, Учтепинский район, Ташкент",
+        "query": "Чиланзар-12, Ташкент"
+      }
+    },
+    "pretorian_c6": {
+      "name": "Pretorian Team / Uzbekistan Top Team",
+      "address": "ул. Шарафа Рашидова, 94а (Ц-6)",
+      "q": [
+        "Sharof Rashidov shoh ko'chasi 94, Tashkent",
+        "Burevestnik Tashkent",
+        "Sharof Rashidov shoh ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32556,
+        "lng": 69.27932,
+        "precision": "exact",
+        "matched": "Буревестник, Киёт (Ц-5) массив, Киёт (Ц-5)",
+        "query": "Burevestnik Tashkent"
+      }
+    },
+    "pretorian_feruza": {
+      "name": "Pretorian Team",
+      "address": "массив Феруза, 31",
+      "q": [
+        "Feruza mahallasi, Tashkent",
+        "Феруза, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.35438,
+        "lng": 69.37321,
+        "precision": "street",
+        "matched": "Феруза улица, Бешкапа махалля, Феруза (Северо-Восток)",
+        "query": "Feruza mahallasi, Tashkent"
+      }
+    },
+    "pretorian_buz2": {
+      "name": "Pretorian Team",
+      "address": "массив Буз-2, 17а",
+      "q": [
+        "Бўз-2, Тошкент",
+        "Bo'z 2, Toshkent",
+        "Буз-2",
+        "Boz-2 Tashkent"
+      ],
+      "geo": {
+        "lat": 41.3474,
+        "lng": 69.35094,
+        "precision": "area",
+        "matched": "Буз-2 (Черданцева), Феруза (Северо-Восток), Мирзо-Улугбекский район",
+        "query": "Бўз-2, Тошкент"
+      }
+    },
+    "legion": {
+      "name": "Legion Fight Club",
+      "address": "массив Авиасозлар, 4-й квартал, 34/1",
+      "q": [
+        "Aviasozlar 4-mavze, Tashkent",
+        "Aviasozlar, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28852,
+        "lng": 69.34693,
+        "precision": "area",
+        "matched": "Авиасозлар (Лисунова), Яшнабадский район, Ташкент",
+        "query": "Aviasozlar, Tashkent"
+      }
+    },
+    "gagik": {
+      "name": "Gagik Scorpion Team",
+      "address": "пр-т Махтумкули (район 2-го автобусного парка)",
+      "q": [
+        "Maxtumquli ko'chasi, Tashkent",
+        "Махтумкули, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.33896,
+        "lng": 69.1994,
+        "precision": "street",
+        "matched": "Махтумкули улица, Зафарабад махалля, Шайхантахурский район",
+        "query": "Махтумкули, Ташкент"
+      }
+    },
+    "challenge_center": {
+      "name": "Challenge Center",
+      "address": "ул. Чуст, 1",
+      "q": [
+        "Чуст улица, Ташкент",
+        "Chust ko'chasi, Shayxontohur, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32908,
+        "lng": 69.33289,
+        "precision": "street",
+        "matched": "Чуст улица, Элабад, Мирзо-Улугбекский район",
+        "query": "Чуст улица, Ташкент"
+      }
+    },
+    "yunusabad_sc": {
+      "name": "Спортивный комплекс «Юнусабад»",
+      "address": "ул. Ифтихор, 1 (возле Телебашни)",
+      "q": [
+        "Yunusobod sport majmuasi",
+        "Iftixor ko'chasi 1, Tashkent",
+        "Iftixor ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.34337,
+        "lng": 69.27395,
+        "precision": "house",
+        "matched": "1, Ифтихор 2-й проезд, Уста Ширин махалля",
+        "query": "ул. Ифтихор, 1, Ташкент"
+      }
+    },
+    "fc_cuba": {
+      "name": "Fight Club Cuba (Муай-тай, кикбоксинг, K-1)",
+      "address": "ул. Паркентская, 241",
+      "q": [
+        "Parkent ko'chasi 241, Tashkent",
+        "Parkent ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.31017,
+        "lng": 69.33571,
+        "precision": "house",
+        "matched": "241, Паркентская улица, Алтынтепа махалля",
+        "query": "Parkent ko'chasi 241, Tashkent"
+      }
+    },
+    "jar": {
+      "name": "Спортивный комплекс «Jar»",
+      "address": "проспект Беруни, 3к1",
+      "q": [
+        "Jar sport majmuasi",
+        "Jar Sport Complex Tashkent",
+        "Beruniy ko'chasi 3, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32181,
+        "lng": 69.23148,
+        "precision": "exact",
+        "matched": "\"Джар\" спорт комплекс, Беруни проспект, Шайхантахурский район",
+        "query": "Jar sport majmuasi"
+      }
+    },
+    "sparta": {
+      "name": "Klub Sparta",
+      "address": "ул. Янги Юнусабад, 51а",
+      "q": [
+        "Yangi Yunusobod ko'chasi, Tashkent",
+        "Янги Юнусабад, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.37175,
+        "lng": 69.31708,
+        "precision": "street",
+        "matched": "Янги Юнусабад улица, Юнусабад-18, Юнусабад",
+        "query": "Yangi Yunusobod ko'chasi, Tashkent"
+      }
+    },
+    "vostochny_voin": {
+      "name": "Бойцовский клуб «Восточный Воин»",
+      "address": "массив Карасу-3, 40а/2",
+      "q": [
+        "Qorasuv-3, Tashkent",
+        "Карасу-3, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.33252,
+        "lng": 69.36891,
+        "precision": "area",
+        "matched": "Карасу-3, Карасу, Мирзо-Улугбекский район",
+        "query": "Qorasuv-3, Tashkent"
+      }
+    },
+    "tutundjan": {
+      "name": "Tutundjan Fight Club",
+      "address": "проспект Амира Темура, 33",
+      "q": [
+        "Amir Temur shoh ko'chasi 33, Tashkent",
+        "Amir Temur shoh ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.30181,
+        "lng": 69.28104,
+        "precision": "house",
+        "matched": "Smart School - Kampus A, 33, Амира Тимура проспект",
+        "query": "Amir Temur shoh ko'chasi 33, Tashkent"
+      }
+    },
+    "falcons": {
+      "name": "Falcons Sports Center",
+      "address": "массив Чиланзар, 16-й квартал, 2а/2",
+      "q": [
+        "Чиланзар-16, Ташкент",
+        "Chilonzor-16, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.27481,
+        "lng": 69.1998,
+        "precision": "area",
+        "matched": "Чиланзар-16, Чиланзар, Чиланзарский район",
+        "query": "Чиланзар-16, Ташкент"
+      }
+    },
+    "agzamov": {
+      "name": "Agzamov Team",
+      "address": "жилой массив Минор, 65/2",
+      "q": [
+        "Minor mahallasi, Tashkent",
+        "Minor metro, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.33713,
+        "lng": 69.27988,
+        "precision": "area",
+        "matched": "Минор махалля, Юнусабадский район, Ташкент",
+        "query": "Minor mahallasi, Tashkent"
+      }
+    },
+    "mega_sport": {
+      "name": "Mega Sport",
+      "address": "массив Лабзак (Ц-13), 40а (возле гостиницы «Парк Турон»)",
+      "q": [
+        "Park Turon hotel Tashkent",
+        "Labzak, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32717,
+        "lng": 69.25973,
+        "precision": "area",
+        "matched": "Лабзак (Ц-13), Шайхантахурский район, Ташкент",
+        "query": "Labzak, Tashkent"
+      }
+    },
+    "lokomotiv": {
+      "name": "Спортивный комплекс «Локомотив»",
+      "address": "ул. Кызыларватская, 28",
+      "q": [
+        "Кызыларватская улица, Ташкент",
+        "Qizil Arvat ko'chasi, Tashkent",
+        "Lokomotiv Mirobod Tashkent"
+      ],
+      "geo": {
+        "lat": 41.27571,
+        "lng": 69.27301,
+        "precision": "exact",
+        "matched": "СК Локомотив (OpenStreetMap)",
+        "query": "osm"
+      }
+    },
+    "ok_tepa": {
+      "name": "Профессиональный спортивный клуб «Ок-тепа»",
+      "address": "ул. Хумдонсой, 2/1",
+      "q": [
+        "Xumdonsoy ko'chasi, Tashkent",
+        "Хумдонсой, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.30711,
+        "lng": 69.20697,
+        "precision": "street",
+        "matched": "Улица Хумдонсой, Нурафшан обводная улица, Актепа",
+        "query": "Xumdonsoy ko'chasi, Tashkent"
+      }
+    },
+    "sport_line": {
+      "name": "Спортивный центр «Sport Line»",
+      "address": "ул. Таллимарджанская, 7/1",
+      "q": [
+        "Sport Line Tashkent",
+        "Tallimarjon ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.27518,
+        "lng": 69.30178,
+        "precision": "exact",
+        "matched": "Sport Line, Таллимаржон улица, Фуркат махалля",
+        "query": "Sport Line Tashkent"
+      }
+    },
+    "stenbridge": {
+      "name": "Фитнес-клуб Stenbridge",
+      "address": "ул. Абдуллы Кадыри, 1а",
+      "q": [
+        "Stenbridge Tashkent",
+        "Abdulla Qodiriy ko'chasi 1, Tashkent",
+        "Abdulla Qodiriy ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32492,
+        "lng": 69.26337,
+        "precision": "house",
+        "matched": "1, Абдулла Кадыри улица, Лабзак (Ц-13)",
+        "query": "Abdulla Qodiriy ko'chasi 1, Tashkent"
+      }
+    },
+    "dyussh2_yunusabad": {
+      "name": "ДЮСШ №2 (Юнусабадский район)",
+      "address": "массив Юнусабад-19, 12/1",
+      "q": [
+        "Yunusobod 19-mavze, Tashkent",
+        "Юнусабад 19 квартал, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.37314,
+        "lng": 69.32264,
+        "precision": "house",
+        "matched": "Массив \"Юнусабад\", квартал 19, Ташкентская Кольцевая Автомобильная Дорога",
+        "query": "Yunusobod 19-mavze, Tashkent"
+      }
+    },
+    "yakkasaray_school1": {
+      "name": "Яккасарайская спортивная школа №1",
+      "address": "микрорайон Кушбеги, 17Б / 108а",
+      "q": [
+        "Qushbegi ko'chasi, Tashkent",
+        "Кушбеги, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.26804,
+        "lng": 69.24609,
+        "precision": "street",
+        "matched": "Кушбеги улица, Башлык, Яккасарайский район",
+        "query": "Qushbegi ko'chasi, Tashkent"
+      }
+    },
+    "ttz_judo": {
+      "name": "TTZ Judo Club",
+      "address": "ул. Тимура Малика, 27 (м/в Феруза)",
+      "q": [
+        "Temur Malik ko'chasi 27, Tashkent",
+        "Temur Malik ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.35079,
+        "lng": 69.35277,
+        "precision": "house",
+        "matched": "Mark Formelle, 27, Темура Малика улица",
+        "query": "Temur Malik ko'chasi 27, Tashkent"
+      }
+    },
+    "dinamo_mustaqillik1": {
+      "name": "ФСО «Динамо» Ташкент",
+      "address": "проспект Мустакиллик, 1",
+      "q": [
+        "Mustaqillik shoh ko'chasi 1, Tashkent",
+        "Mustaqillik shoh ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.31461,
+        "lng": 69.28674,
+        "precision": "street",
+        "matched": "LLC NETKA TELEKOM, 5/1, Мустакиллик проспект",
+        "query": "Mustaqillik shoh ko'chasi 1, Tashkent"
+      }
+    },
+    "sila_znaniy": {
+      "name": "Спортивный клуб «Сила знаний»",
+      "address": "ул. Мирабадская, 14",
+      "q": [
+        "Mirobod ko'chasi 14, Tashkent",
+        "Mirobod ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.29942,
+        "lng": 69.26767,
+        "precision": "street",
+        "matched": "Мирабадская улица, Яккасарайский район, Ташкент",
+        "query": "Mirobod ko'chasi 14, Tashkent"
+      }
+    },
+    "absidian": {
+      "name": "Absidian Sport Club",
+      "address": "массив Жангох, 15 (метро Гафур Гулом)",
+      "q": [
+        "Jangoh, Tashkent",
+        "G'afur G'ulom metro, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32882,
+        "lng": 69.25248,
+        "precision": "area",
+        "matched": "Жангох (Ц-15), Шайхантахурский район, Ташкент",
+        "query": "Jangoh, Tashkent"
+      }
+    },
+    "bektemir_judo": {
+      "name": "Bektemir Judo Club",
+      "address": "Бектемирский район (махалля Абай)",
+      "q": [
+        "Abay mahallasi, Bektemir, Tashkent",
+        "Bektemir, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.24314,
+        "lng": 69.36166,
+        "precision": "area",
+        "matched": "Абай махалля, Бектимирский район, Ташкент",
+        "query": "Abay mahallasi, Bektemir, Tashkent"
+      }
+    },
+    "turon_fed": {
+      "name": "Федерация единоборств «Турон»",
+      "address": "ул. Беруни, Б1 (Алмазарский р-н)",
+      "q": [
+        "Beruniy ko'chasi, Olmazor, Tashkent",
+        "Beruniy ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.33722,
+        "lng": 69.21059,
+        "precision": "street",
+        "matched": "Беруни проспект, Беруни-3, Алмазарский район",
+        "query": "Beruniy ko'chasi, Olmazor, Tashkent"
+      }
+    },
+    "dyussh2_avia": {
+      "name": "ДЮСШ №2 (филиал Авиастроителей)",
+      "address": "массив Авиасозлар, 4-й квартал, 12",
+      "q": [
+        "Aviasozlar 4-mavze, Tashkent",
+        "Aviasozlar, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28852,
+        "lng": 69.34693,
+        "precision": "area",
+        "matched": "Авиасозлар (Лисунова), Яшнабадский район, Ташкент",
+        "query": "Aviasozlar, Tashkent"
+      }
+    },
+    "rsdyushor": {
+      "name": "Специализированная школа единоборств (РСДЮШОР)",
+      "address": "ул. Юрия Гагарина, 85А",
+      "q": [
+        "Юрия Гагарина улица, Ташкент",
+        "Yuriy Gagarin ko'chasi, Tashkent",
+        "Gagarin ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28211,
+        "lng": 69.22642,
+        "precision": "street",
+        "matched": "Гагарина улица, Чиланзар-1, Чиланзарский район",
+        "query": "Gagarin ko'chasi, Tashkent"
+      }
+    },
+    "kurash_association": {
+      "name": "International Kurash Association",
+      "address": "обводная ул. Нурафшан, 70А (около метро Минор)",
+      "q": [
+        "International Kurash Association",
+        "Nurafshon ko'chasi, Tashkent",
+        "Minor metro, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.33934,
+        "lng": 69.22646,
+        "precision": "street",
+        "matched": "Нурафшан обводная улица, Гузарбаши махалля, Старый Город",
+        "query": "Nurafshon ko'chasi, Tashkent"
+      }
+    },
+    "wrestling_kurash": {
+      "name": "Спортивный клуб «Wrestling Kurash Борьба»",
+      "address": "Сергелийский р-н, массив Куйлюк, 5-й квартал, 50 (около метро Киёт)",
+      "q": [
+        "Qo'yliq 5-mavze, Tashkent",
+        "Qo'yliq, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.23746,
+        "lng": 69.327,
+        "precision": "area",
+        "matched": "Куйлюк, Ханабадтепа проспект, Бектемир",
+        "query": "Qo'yliq, Tashkent"
+      }
+    },
+    "yoshlik": {
+      "name": "Спортивный комплекс «Ёшлик» (бывший стадион «Старт»)",
+      "address": "ул. Аккурган, 16А",
+      "q": [
+        "Yoshlik stadioni",
+        "Start stadium Tashkent",
+        "Oqqo'rg'on ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32416,
+        "lng": 69.30691,
+        "precision": "exact",
+        "matched": "стадион \"NBU\", Аккурганская улица, Дархан махалля",
+        "query": "Start stadium Tashkent"
+      }
+    },
+    "matonat": {
+      "name": "Спортивный комплекс «Матонат»",
+      "address": "Ц-5, жилой массив Киёт, 56в/1",
+      "q": [
+        "Киёт (Ц-5), Ташкент",
+        "Kiyot C-5, Tashkent",
+        "Burevestnik Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32538,
+        "lng": 69.27791,
+        "precision": "area",
+        "matched": "Киёт (Ц-5), Юнусабадский район, Ташкент",
+        "query": "Киёт (Ц-5), Ташкент"
+      }
+    },
+    "dinamo_58": {
+      "name": "Спортивный комплекс «Динамо»",
+      "address": "проспект Мустакиллик, 58/3",
+      "q": [
+        "Dinamo sport majmuasi Tashkent",
+        "Mustaqillik shoh ko'chasi 58, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32214,
+        "lng": 69.30777,
+        "precision": "exact",
+        "matched": "Dinamo stadioni (OpenStreetMap)",
+        "query": "osm"
+      }
+    },
+    "rshvsm_fidoyilar": {
+      "name": "Республиканская школа высшего спортивного мастерства (РСШВСМ)",
+      "address": "ул. Фидойилар, 124",
+      "q": [
+        "Fidoyilar ko'chasi, Tashkent",
+        "Фидойилар, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.26959,
+        "lng": 69.292,
+        "precision": "street",
+        "matched": "Фидойилар улица, Сарыкуль махалля, Мирабадский район",
+        "query": "Fidoyilar ko'chasi, Tashkent"
+      }
+    },
+    "uchtepa_school2": {
+      "name": "Спортивная школа №2 (Учтепинский район)",
+      "address": "Учтепа, 13-й квартал, 6а/6",
+      "q": [
+        "Uchtepa 13-mavze, Tashkent",
+        "Uchtepa, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.29582,
+        "lng": 69.19005,
+        "precision": "area",
+        "matched": "Uchtepa tuman maktabgacha ta'lim bo'limi, Багбаг улица, Чиланзар-14",
+        "query": "Uchtepa 13-mavze, Tashkent"
+      }
+    },
+    "pakhtakor": {
+      "name": "Стадион «Пахтакор»",
+      "address": "ул. Пахтакор, 5",
+      "q": [
+        "Paxtakor markaziy stadioni",
+        "Pakhtakor Central Stadium",
+        "Paxtakor ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.31546,
+        "lng": 69.26028,
+        "precision": "exact",
+        "matched": "Центральный стадион «Пахтако́р», Шерият Боги улица, Шайхантахурский район",
+        "query": "Paxtakor markaziy stadioni"
+      }
+    },
+    "burevestnik": {
+      "name": "Спортивный комплекс «Буревестник»",
+      "address": "Ц-5, проспект Шарафа Рашидова, 94А",
+      "q": [
+        "Burevestnik Tashkent",
+        "Sharof Rashidov shoh ko'chasi 94, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32556,
+        "lng": 69.27932,
+        "precision": "exact",
+        "matched": "Буревестник, Киёт (Ц-5) массив, Киёт (Ц-5)",
+        "query": "Burevestnik Tashkent"
+      }
+    },
+    "nuuz": {
+      "name": "Спортивный комплекс НУУз",
+      "address": "Вузгородок (метро «Беруни»)",
+      "q": [
+        "O'zbekiston Milliy universiteti",
+        "National University of Uzbekistan",
+        "Beruniy metro, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.35048,
+        "lng": 69.20427,
+        "precision": "exact",
+        "matched": "Национа́льный университе́т Узбекистан́а и́мени Мирзо Улугбека, 4, Университет улица",
+        "query": "National University of Uzbekistan"
+      }
+    },
+    "rshvsm_football": {
+      "name": "РСШВСМ по футболу",
+      "address": "ул. Каракамышская, 11",
+      "q": [
+        "Qoraqamish ko'chasi, Tashkent",
+        "Каракамыш, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.35751,
+        "lng": 69.21578,
+        "precision": "street",
+        "matched": "Каракамыш улица, Каракамыш 2/1, Каракамыш",
+        "query": "Qoraqamish ko'chasi, Tashkent"
+      }
+    },
+    "junior": {
+      "name": "Детская футбольная школа «Junior»",
+      "address": "ул. Аккурган, 18",
+      "q": [
+        "Международная футбольная школа Junior",
+        "Oqqo'rg'on ko'chasi 18, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32398,
+        "lng": 69.29158,
+        "precision": "exact",
+        "matched": "Международная футбольная школа \"Junior\", Ниёзбек йули улица, Мирзо Улугбек махалля",
+        "query": "Международная футбольная школа Junior"
+      }
+    },
+    "amirov": {
+      "name": "Футбольная академия «Amirov»",
+      "address": "Ц-5, спорткомплекс «Буревестник», пр-т Шарафа Рашидова, 94А",
+      "q": [
+        "Burevestnik Tashkent",
+        "Sharof Rashidov shoh ko'chasi 94, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32556,
+        "lng": 69.27932,
+        "precision": "exact",
+        "matched": "Буревестник, Киёт (Ц-5) массив, Киёт (Ц-5)",
+        "query": "Burevestnik Tashkent"
+      }
+    },
+    "pakhtakor_kids": {
+      "name": "Детская футбольная школа «Pakhtakor Kids»",
+      "address": "ул. Шота Руставели, 17",
+      "q": [
+        "Shota Rustaveli ko'chasi 17, Tashkent",
+        "Shota Rustaveli ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.28764,
+        "lng": 69.25595,
+        "precision": "street",
+        "matched": "Шота Руставели улица, Абдулла Каххар махалля, Яккасарайский район",
+        "query": "Shota Rustaveli ko'chasi 17, Tashkent"
+      }
+    },
+    "msi": {
+      "name": "Детская футбольная школа «MSI»",
+      "address": "ул. Ифтихор, 1",
+      "q": [
+        "Yunusobod sport majmuasi",
+        "Iftixor ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.34337,
+        "lng": 69.27395,
+        "precision": "house",
+        "matched": "1, Ифтихор 2-й проезд, Уста Ширин махалля",
+        "query": "ул. Ифтихор, 1, Ташкент"
+      }
+    },
+    "dinamo_buz1": {
+      "name": "Спортивный комплекс «Динамо»",
+      "address": "жилмассив Буз-1, 8А",
+      "q": [
+        "Буз-1 массив, Ташкент",
+        "Bo'z-1 massivi, Tashkent",
+        "Ниёзбек йули улица, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.32526,
+        "lng": 69.28685,
+        "precision": "street",
+        "matched": "Ниёзбек йули улица, Буюк Туран махалля, Юнусабадский район",
+        "query": "Ниёзбек йули улица, Ташкент"
+      }
+    },
+    "dinamo_geofizika": {
+      "name": "Спортивный комплекс «Динамо»",
+      "address": "ул. Геофизики, 95А",
+      "q": [
+        "Geofizika ko'chasi, Tashkent",
+        "Геофизики, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.34106,
+        "lng": 69.39231,
+        "precision": "street",
+        "matched": "Геофизика улица, Геофизика, Мирзо-Улугбекский район",
+        "query": "Geofizika ko'chasi, Tashkent"
+      }
+    },
+    "javohir": {
+      "name": "Футбольный комплекс Javohir Sport Servis",
+      "address": "ул. Согдиана, 1 (Сергелийский р-н, ориентир: хокимият)",
+      "q": [
+        "Sug'diyona ko'chasi, Tashkent",
+        "Sergeli hokimiyati"
+      ],
+      "geo": {
+        "lat": 41.22081,
+        "lng": 69.22348,
+        "precision": "street",
+        "matched": "Сергелийский хокимият, Янги Сергели улица, Сергели-8",
+        "query": "Sergeli hokimiyati"
+      }
+    },
+    "yunusabad_indoor": {
+      "name": "Крытое футбольное поле в Юнусабаде",
+      "address": "массив Юнусабад, 18-й / 19-й квартал",
+      "q": [
+        "Yunusobod 18-mavze, Tashkent",
+        "Yunusobod 19-mavze, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.37184,
+        "lng": 69.31642,
+        "precision": "house",
+        "matched": "Массив \"Юнусабад\", квартал 18, Янги Юнусабад улица",
+        "query": "Yunusobod 18-mavze, Tashkent"
+      }
+    },
+    "tigers": {
+      "name": "Баскетбольная школа TIGERS",
+      "address": "ул. Юсуф Хос Хожиб, 40Б",
+      "q": [
+        "Yusuf Xos Hojib ko'chasi, Tashkent",
+        "Юсуф Хос Хожиб, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.29624,
+        "lng": 69.25638,
+        "precision": "street",
+        "matched": "Юсуф Хос Ходжиб улица, Конституция махалля, Яккасарайский район",
+        "query": "Yusuf Xos Hojib ko'chasi, Tashkent"
+      }
+    },
+    "afrosiab_court": {
+      "name": "Баскетбольная площадка на ул. Афросиаб",
+      "address": "ул. Афросиаб, 8/1",
+      "q": [
+        "Afrosiyob ko'chasi, Tashkent",
+        "Афросиаб, Ташкент"
+      ],
+      "geo": {
+        "lat": 41.30102,
+        "lng": 69.27077,
+        "precision": "street",
+        "matched": "Афрасиаб улица, Мирабадский район, Ташкент",
+        "query": "Afrosiyob ko'chasi, Tashkent"
+      }
+    },
+    "tiiame": {
+      "name": "Спорткомплекс ТИИИМСХ (Ирригационный институт)",
+      "address": "ул. Кари Ниязова, 39",
+      "q": [
+        "TIIAME Tashkent",
+        "Qori Niyoziy ko'chasi 39, Tashkent",
+        "Qori Niyoziy ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.32337,
+        "lng": 69.29529,
+        "precision": "exact",
+        "matched": "Ташкентский институт инженеров ирригации и механизации сельского хозяйства\" Национальный исследовательский университет, 39, Кары Ниязова улица",
+        "query": "TIIAME Tashkent"
+      }
+    },
+    "ecopark": {
+      "name": "Экопарк (пляжный волейбол)",
+      "address": "пересечение ул. Махтумкули и ул. Абдуллы Кадыри",
+      "q": [
+        "Ecopark Tashkent",
+        "Ekopark, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.31375,
+        "lng": 69.29367,
+        "precision": "exact",
+        "matched": "Breadly Ecopark, Хамида Алимджана улица, Буюк Ипак Йули (Ц-1)",
+        "query": "Ecopark Tashkent"
+      }
+    },
+    "school_104": {
+      "name": "Школа №104",
+      "address": "Сергелийский район, ул. Кипчак",
+      "q": [
+        "Школа №104, Qipchoq ko'chasi, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.21589,
+        "lng": 69.24096,
+        "precision": "exact",
+        "matched": "Школа №104, Qipchoq ko'chasi, Sergeli tumani",
+        "query": "Школа №104, Qipchoq ko'chasi, Tashkent"
+      }
+    },
+    "school_47": {
+      "name": "Школа №47",
+      "address": "Сергелийский район, Куйлюк-5, ул. Убай Махмудов",
+      "q": [
+        "47-maktab, Qo'yliq 5, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.24729,
+        "lng": 69.29867,
+        "precision": "exact",
+        "matched": "47-maktab, Ubay Mahmudov o'tish ko'chasi, Qo'yliq 5 mavzesi, Sergeli tumani",
+        "query": "47-maktab, Qo'yliq 5, Tashkent"
+      }
+    },
+    "school_7": {
+      "name": "Школа №7",
+      "address": "Сергелийский район, Сергели-2, ул. Кипчак",
+      "q": [
+        "Школа №7, Sergeli 2, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.21294,
+        "lng": 69.23353,
+        "precision": "exact",
+        "matched": "Школа №7, Qipchoq ko'chasi, Sergeli 2 dahasi, Sergeli tumani",
+        "query": "Школа №7, Sergeli 2, Tashkent"
+      }
+    },
+    "bektemir_jsa": {
+      "name": "IJSA — Бектемирский район",
+      "address": "Бектемирский район",
+      "q": [
+        "Bektemir tumani, Tashkent"
+      ],
+      "geo": {
+        "lat": 41.22811,
+        "lng": 69.32057,
+        "precision": "area",
+        "matched": "Bektemir Tumani, Toshkent",
+        "query": "Bektemir tumani, Tashkent"
+      }
+    }
+  },
+  "sports": {
+    "mma": [
+      "ufc_gym",
+      "bukagym",
+      "fight_baza_alimjan",
+      "fight_baza_niyazov",
+      "mma_uzbekistan",
+      "old_school_mma",
+      "pretorian_c6",
+      "pretorian_feruza",
+      "pretorian_buz2",
+      "legion",
+      "gagik",
+      "challenge_center",
+      "yunusabad_sc"
+    ],
+    "kickboxing": [
+      "fc_cuba",
+      "bukagym",
+      "jar",
+      "fight_baza_alimjan",
+      "fight_baza_karasu",
+      "sparta",
+      "vostochny_voin",
+      "tutundjan",
+      "falcons",
+      "agzamov",
+      "mega_sport",
+      "lokomotiv",
+      "ok_tepa",
+      "sport_line",
+      "stenbridge",
+      "dyussh2_yunusabad",
+      "yakkasaray_school1"
+    ],
+    "judo": [
+      "ttz_judo",
+      "dinamo_mustaqillik1",
+      "sila_znaniy",
+      "jar",
+      "lokomotiv",
+      "absidian",
+      "bektemir_judo",
+      "turon_fed",
+      "dyussh2_avia",
+      "rsdyushor"
+    ],
+    "kurash": [
+      "kurash_association",
+      "wrestling_kurash",
+      "jar",
+      "yoshlik",
+      "matonat",
+      "dinamo_58",
+      "rshvsm_fidoyilar",
+      "yakkasaray_school1",
+      "dyussh2_avia",
+      "dyussh2_yunusabad",
+      "uchtepa_school2"
+    ],
+    "football": [
+      "pakhtakor",
+      "yoshlik",
+      "lokomotiv",
+      "burevestnik",
+      "yunusabad_sc",
+      "nuuz",
+      "rshvsm_football",
+      "junior",
+      "amirov",
+      "pakhtakor_kids",
+      "msi",
+      "dinamo_buz1",
+      "dinamo_geofizika",
+      "javohir",
+      "yunusabad_indoor"
+    ],
+    "basketball": [
+      "tigers",
+      "afrosiab_court",
+      "yoshlik",
+      "nuuz"
+    ],
+    "volleyball": [
+      "burevestnik",
+      "yoshlik",
+      "jar",
+      "dinamo_buz1",
+      "lokomotiv",
+      "nuuz",
+      "tiiame",
+      "dyussh2_yunusabad",
+      "ecopark"
+    ],
+    "jsa": [
+      "school_104",
+      "school_47",
+      "school_7",
+      "bektemir_jsa"
+    ]
+  }
+}
